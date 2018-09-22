@@ -1,0 +1,52 @@
+{
+  "name": "shortkey",
+  "version": "0.0.0",
+  "description": "A small library to handle keyboard events in a more declarative way",
+  "main": "./dist/shortkey.umd.js",
+  "module": "./dist/shortkey.es.js",
+  "keywords": [
+    "keydown",
+    "keyup",
+    "addEventListener",
+    "removeEventListener",
+    "react",
+    "a11y",
+    "accessibility",
+    "keyboard",
+    "event",
+    "handler"
+  ],
+  "author": "Steven Benisek <steven.benisek@gmail.com>",
+  "homepage": "https://github.com/stevenbenisek/shortkey",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenbenisek/shortkey.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "ava",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "ava": "^1.0.0-beta.8",
+    "browser-env": "^3.2.5",
+    "raf": "^3.4.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "rollup": "^0.65.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-uglify": "^5.0.2",
+    "window": "^4.2.5"
+  },
+  "files": [
+    "dist"
+  ]
+}
