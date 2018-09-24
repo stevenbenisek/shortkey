@@ -1,6 +1,6 @@
 {
   "name": "shortkey",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A small library to handle keyboard events in a more declarative way",
   "main": "./dist/shortkey.umd.js",
   "module": "./dist/shortkey.es.js",
